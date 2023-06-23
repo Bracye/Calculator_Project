@@ -1,0 +1,73 @@
+
+
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #5e5e5e;
+  border: 2px solid #2a2929;
+  border-radius: 5px;
+}
+
+/* Display Styles */
+.display {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 1px;
+  font-size: 36px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  background-color: #b2b2b2;
+  color: #000000;
+}
+
+/* Column Styles */
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+/* Button Order Styles */
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Button Styles */
+.btn {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+/* Dark Grey Buttons */
+.btn-darkgrey {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Yellow Buttons */
+.btn-yellow {
+  background-color: #ffc107;
+  color: #333;
+}
+
+/* Grey Buttons */
+.btn-grey {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Grey Buttons */
+.btn-bottomgrey {
+  background-color: #ccc;
+  color: #333;
+}
