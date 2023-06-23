@@ -7,17 +7,20 @@ const buttons = document.querySelectorAll(".btn");
 // Add click event listeners to each button
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
+    // Grabs the attribute "data-num" from the buttons
     const buttonValue = button.getAttribute("data-num");
 
+    // When clicked the button "A/C" will clear display
     if (buttonValue === "A/C") {
-      // Whhen clicked clear display
       display.value = " ";
-    } else if (buttonValue === "=") {
+    }
+    // When the "=" button is clicked it will perform the try and catch
+    else if (buttonValue === "=") {
       // Testing if display value can be calculated
       try {
         display.value = eval(display.value);
       } catch (err) {
-        // If it cannot show connect the error message to display
+        // If the eval func doesn't work with the expression show the error message to display
         display.value = "Syntax ERROR";
       }
     }
